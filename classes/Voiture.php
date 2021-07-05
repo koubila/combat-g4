@@ -28,4 +28,9 @@ class Voiture
         $this->essence = 100;
         echo "La voiture fait le plein d'essence !";
     }
+
+    public function échangeEssence($cible) {
+        $this->essence += 30;
+        $cible->essence -= 30;
+    }
 }

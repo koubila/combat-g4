@@ -7,6 +7,11 @@ $voiture2 = new Voiture('blanc', 7);
 
 $voiture1->avance(85);
 echo '<br>';
+// $voiture2->échangeEssence($voiture1);
+// $voiture2->échangeEssence($voiture1);
+$voiture1->échangeEssence($voiture2);
+
+// $voiture2->essence += 150;
 
 
 var_dump($voiture1, $voiture2);
